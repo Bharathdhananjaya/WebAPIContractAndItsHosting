@@ -1,0 +1,11 @@
+G:\GitWEBAPI\TestRepository\bin\Debug\SQLRepository.dll
+G:\GitWEBAPI\TestRepository\bin\Debug\SQLRepository.pdb
+G:\GitWEBAPI\TestRepository\obj\Debug\SQLRepository.dll
+G:\GitWEBAPI\TestRepository\obj\Debug\SQLRepository.pdb
+G:\GitWEBAPI\TestRepository\bin\Debug\Contracts.dll
+G:\GitWEBAPI\TestRepository\bin\Debug\Framework.Core.dll
+G:\GitWEBAPI\TestRepository\bin\Debug\System.Web.Http.dll
+G:\GitWEBAPI\TestRepository\bin\Debug\Contracts.pdb
+G:\GitWEBAPI\TestRepository\bin\Debug\Framework.Core.pdb
+G:\GitWEBAPI\TestRepository\bin\Debug\System.Web.Http.xml
+G:\GitWEBAPI\TestRepository\obj\Debug\SQLRepository.csprojResolveAssemblyReference.cache

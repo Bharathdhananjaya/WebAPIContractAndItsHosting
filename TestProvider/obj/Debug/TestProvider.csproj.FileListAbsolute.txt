@@ -1,0 +1,14 @@
+G:\Gitrep\DOTNetHost\TestProvider\bin\Debug\TestProvider.dll
+G:\Gitrep\DOTNetHost\TestProvider\bin\Debug\TestProvider.pdb
+G:\Gitrep\DOTNetHost\TestProvider\obj\Debug\TestProvider.csprojResolveAssemblyReference.cache
+G:\Gitrep\DOTNetHost\TestProvider\obj\Debug\TestProvider.dll
+G:\Gitrep\DOTNetHost\TestProvider\obj\Debug\TestProvider.pdb
+G:\GitWebAPIRep\WebAPIContractAndHosting\WebAPIContractAndItsHosting\DOTNetHost\TestProvider\bin\Debug\TestProvider.dll
+G:\GitWebAPIRep\WebAPIContractAndHosting\WebAPIContractAndItsHosting\DOTNetHost\TestProvider\bin\Debug\TestProvider.pdb
+G:\GitWebAPIRep\WebAPIContractAndHosting\WebAPIContractAndItsHosting\DOTNetHost\TestProvider\obj\Debug\TestProvider.dll
+G:\GitWebAPIRep\WebAPIContractAndHosting\WebAPIContractAndItsHosting\DOTNetHost\TestProvider\obj\Debug\TestProvider.pdb
+G:\GitWebAPIRep\WebAPIContractAndHosting\WebAPIContractAndItsHosting\DOTNetHost\OWINWindowsSVC\DOTNetHost\TestProvider\bin\Debug\TestProvider.dll
+G:\GitWebAPIRep\WebAPIContractAndHosting\WebAPIContractAndItsHosting\DOTNetHost\OWINWindowsSVC\DOTNetHost\TestProvider\bin\Debug\TestProvider.pdb
+G:\GitWebAPIRep\WebAPIContractAndHosting\WebAPIContractAndItsHosting\DOTNetHost\OWINWindowsSVC\DOTNetHost\TestProvider\obj\Debug\TestProvider.csprojResolveAssemblyReference.cache
+G:\GitWebAPIRep\WebAPIContractAndHosting\WebAPIContractAndItsHosting\DOTNetHost\OWINWindowsSVC\DOTNetHost\TestProvider\obj\Debug\TestProvider.dll
+G:\GitWebAPIRep\WebAPIContractAndHosting\WebAPIContractAndItsHosting\DOTNetHost\OWINWindowsSVC\DOTNetHost\TestProvider\obj\Debug\TestProvider.pdb

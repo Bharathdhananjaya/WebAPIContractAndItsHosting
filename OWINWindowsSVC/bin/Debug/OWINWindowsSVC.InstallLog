@@ -1,0 +1,81 @@
+﻿Installing assembly 'G:\Gitrep\DOTNetHost\OWINWindowsSVC\bin\Debug\OWINWindowsSVC.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = G:\Gitrep\DOTNetHost\OWINWindowsSVC\bin\Debug\OWINWindowsSVC.InstallLog
+   assemblypath = G:\Gitrep\DOTNetHost\OWINWindowsSVC\bin\Debug\OWINWindowsSVC.exe
+Installing service Service1...
+Creating EventLog source Service1 in log Application...
+Rolling back assembly 'G:\Gitrep\DOTNetHost\OWINWindowsSVC\bin\Debug\OWINWindowsSVC.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = G:\Gitrep\DOTNetHost\OWINWindowsSVC\bin\Debug\OWINWindowsSVC.InstallLog
+   assemblypath = G:\Gitrep\DOTNetHost\OWINWindowsSVC\bin\Debug\OWINWindowsSVC.exe
+Restoring event log to previous state for source Service1.
+Installing assembly 'G:\Gitrep\DOTNetHost\OWINWindowsSVC\bin\Debug\OWINWindowsSVC.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = G:\Gitrep\DOTNetHost\OWINWindowsSVC\bin\Debug\OWINWindowsSVC.InstallLog
+   assemblypath = G:\Gitrep\DOTNetHost\OWINWindowsSVC\bin\Debug\OWINWindowsSVC.exe
+Installing service Service1...
+Creating EventLog source Service1 in log Application...
+Rolling back assembly 'G:\Gitrep\DOTNetHost\OWINWindowsSVC\bin\Debug\OWINWindowsSVC.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = G:\Gitrep\DOTNetHost\OWINWindowsSVC\bin\Debug\OWINWindowsSVC.InstallLog
+   assemblypath = G:\Gitrep\DOTNetHost\OWINWindowsSVC\bin\Debug\OWINWindowsSVC.exe
+Restoring event log to previous state for source Service1.
+Installing assembly 'G:\Gitrep\DOTNetHost\OWINWindowsSVC\bin\Debug\OWINWindowsSVC.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = G:\Gitrep\DOTNetHost\OWINWindowsSVC\bin\Debug\OWINWindowsSVC.InstallLog
+   assemblypath = G:\Gitrep\DOTNetHost\OWINWindowsSVC\bin\Debug\OWINWindowsSVC.exe
+Installing service Service1...
+Service Service1 has been successfully installed.
+Creating EventLog source Service1 in log Application...
+Committing assembly 'G:\Gitrep\DOTNetHost\OWINWindowsSVC\bin\Debug\OWINWindowsSVC.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = G:\Gitrep\DOTNetHost\OWINWindowsSVC\bin\Debug\OWINWindowsSVC.InstallLog
+   assemblypath = G:\Gitrep\DOTNetHost\OWINWindowsSVC\bin\Debug\OWINWindowsSVC.exe
+Uninstalling assembly 'G:\Gitrep\DOTNetHost\OWINWindowsSVC\bin\Debug\OWINWindowsSVC.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = G:\Gitrep\DOTNetHost\OWINWindowsSVC\bin\Debug\OWINWindowsSVC.InstallLog
+   assemblypath = G:\Gitrep\DOTNetHost\OWINWindowsSVC\bin\Debug\OWINWindowsSVC.exe
+Removing EventLog source Service1.
+Service Service1 is being removed from the system...
+Service Service1 was successfully removed from the system.
+Installing assembly 'G:\Gitrep\DOTNetHost\OWINWindowsSVC\bin\Debug\OWINWindowsSVC.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = G:\Gitrep\DOTNetHost\OWINWindowsSVC\bin\Debug\OWINWindowsSVC.InstallLog
+   assemblypath = G:\Gitrep\DOTNetHost\OWINWindowsSVC\bin\Debug\OWINWindowsSVC.exe
+Installing service Service1...
+Service Service1 has been successfully installed.
+Creating EventLog source Service1 in log Application...
+Committing assembly 'G:\Gitrep\DOTNetHost\OWINWindowsSVC\bin\Debug\OWINWindowsSVC.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = G:\Gitrep\DOTNetHost\OWINWindowsSVC\bin\Debug\OWINWindowsSVC.InstallLog
+   assemblypath = G:\Gitrep\DOTNetHost\OWINWindowsSVC\bin\Debug\OWINWindowsSVC.exe
+Uninstalling assembly 'G:\Gitrep\DOTNetHost\OWINWindowsSVC\bin\Debug\OWINWindowsSVC.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = G:\Gitrep\DOTNetHost\OWINWindowsSVC\bin\Debug\OWINWindowsSVC.InstallLog
+   assemblypath = G:\Gitrep\DOTNetHost\OWINWindowsSVC\bin\Debug\OWINWindowsSVC.exe
+Removing EventLog source Service1.
+Service Service1 is being removed from the system...
+Service Service1 was successfully removed from the system.
+Installing assembly 'G:\Gitrep\DOTNetHost\OWINWindowsSVC\bin\Debug\OWINWindowsSVC.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = G:\Gitrep\DOTNetHost\OWINWindowsSVC\bin\Debug\OWINWindowsSVC.InstallLog
+   assemblypath = G:\Gitrep\DOTNetHost\OWINWindowsSVC\bin\Debug\OWINWindowsSVC.exe
+Installing service Service1...
+Service Service1 has been successfully installed.
+Creating EventLog source Service1 in log Application...
+Committing assembly 'G:\Gitrep\DOTNetHost\OWINWindowsSVC\bin\Debug\OWINWindowsSVC.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = G:\Gitrep\DOTNetHost\OWINWindowsSVC\bin\Debug\OWINWindowsSVC.InstallLog
+   assemblypath = G:\Gitrep\DOTNetHost\OWINWindowsSVC\bin\Debug\OWINWindowsSVC.exe

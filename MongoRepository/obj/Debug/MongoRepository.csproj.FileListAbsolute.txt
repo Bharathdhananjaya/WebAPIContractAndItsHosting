@@ -1,0 +1,10 @@
+G:\GitWEBAPI\MongoRepository\bin\Debug\MongoRepository.dll
+G:\GitWEBAPI\MongoRepository\bin\Debug\MongoRepository.pdb
+G:\GitWEBAPI\MongoRepository\bin\Debug\Contracts.dll
+G:\GitWEBAPI\MongoRepository\bin\Debug\Framework.Core.dll
+G:\GitWEBAPI\MongoRepository\bin\Debug\System.Web.Http.dll
+G:\GitWEBAPI\MongoRepository\bin\Debug\Contracts.pdb
+G:\GitWEBAPI\MongoRepository\bin\Debug\Framework.Core.pdb
+G:\GitWEBAPI\MongoRepository\bin\Debug\System.Web.Http.xml
+G:\GitWEBAPI\MongoRepository\obj\Debug\MongoRepository.dll
+G:\GitWEBAPI\MongoRepository\obj\Debug\MongoRepository.pdb
