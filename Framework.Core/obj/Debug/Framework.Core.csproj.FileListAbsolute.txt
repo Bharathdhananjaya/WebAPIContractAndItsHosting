@@ -7,3 +7,8 @@ G:\GitWebAPIRep\WebAPIContractAndHosting\WebAPIContractAndItsHosting\DOTNetHost\
 G:\GitWebAPIRep\WebAPIContractAndHosting\WebAPIContractAndItsHosting\DOTNetHost\OWINWindowsSVC\DOTNetHost\Framework.Core\obj\Debug\Framework.Core.csprojResolveAssemblyReference.cache
 G:\GitWebAPIRep\WebAPIContractAndHosting\WebAPIContractAndItsHosting\DOTNetHost\OWINWindowsSVC\DOTNetHost\Framework.Core\obj\Debug\Framework.Core.dll
 G:\GitWebAPIRep\WebAPIContractAndHosting\WebAPIContractAndItsHosting\DOTNetHost\OWINWindowsSVC\DOTNetHost\Framework.Core\obj\Debug\Framework.Core.pdb
+G:\GitWEBAPI\WebAPIContractAndItsHosting\Framework.Core\obj\Debug\Framework.Core.csprojResolveAssemblyReference.cache
+G:\GitWEBAPI\WebAPIContractAndItsHosting\Framework.Core\obj\Debug\Framework.Core.dll
+G:\GitWEBAPI\WebAPIContractAndItsHosting\Framework.Core\obj\Debug\Framework.Core.pdb
+G:\GitWEBAPI\WebAPIContractAndItsHosting\Framework.Core\bin\Debug\Framework.Core.dll
+G:\GitWEBAPI\WebAPIContractAndItsHosting\Framework.Core\bin\Debug\Framework.Core.pdb

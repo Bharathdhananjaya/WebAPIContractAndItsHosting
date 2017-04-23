@@ -9,3 +9,14 @@ G:\GitWEBAPI\TestRepository\bin\Debug\Contracts.pdb
 G:\GitWEBAPI\TestRepository\bin\Debug\Framework.Core.pdb
 G:\GitWEBAPI\TestRepository\bin\Debug\System.Web.Http.xml
 G:\GitWEBAPI\TestRepository\obj\Debug\SQLRepository.csprojResolveAssemblyReference.cache
+G:\GitWEBAPI\WebAPIContractAndItsHosting\TestRepository\bin\Debug\SQLRepository.dll
+G:\GitWEBAPI\WebAPIContractAndItsHosting\TestRepository\bin\Debug\SQLRepository.pdb
+G:\GitWEBAPI\WebAPIContractAndItsHosting\TestRepository\bin\Debug\Contracts.dll
+G:\GitWEBAPI\WebAPIContractAndItsHosting\TestRepository\bin\Debug\Framework.Core.dll
+G:\GitWEBAPI\WebAPIContractAndItsHosting\TestRepository\bin\Debug\System.Web.Http.dll
+G:\GitWEBAPI\WebAPIContractAndItsHosting\TestRepository\bin\Debug\Contracts.pdb
+G:\GitWEBAPI\WebAPIContractAndItsHosting\TestRepository\bin\Debug\Framework.Core.pdb
+G:\GitWEBAPI\WebAPIContractAndItsHosting\TestRepository\bin\Debug\System.Web.Http.xml
+G:\GitWEBAPI\WebAPIContractAndItsHosting\TestRepository\obj\Debug\SQLRepository.csprojResolveAssemblyReference.cache
+G:\GitWEBAPI\WebAPIContractAndItsHosting\TestRepository\obj\Debug\SQLRepository.dll
+G:\GitWEBAPI\WebAPIContractAndItsHosting\TestRepository\obj\Debug\SQLRepository.pdb

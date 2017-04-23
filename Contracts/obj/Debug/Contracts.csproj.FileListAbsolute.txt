@@ -25,3 +25,12 @@ G:\GitWEBAPI\Contracts\bin\Debug\System.Web.Http.xml
 G:\GitWEBAPI\Contracts\obj\Debug\Contracts.csprojResolveAssemblyReference.cache
 G:\GitWEBAPI\Contracts\obj\Debug\Contracts.dll
 G:\GitWEBAPI\Contracts\obj\Debug\Contracts.pdb
+G:\GitWEBAPI\WebAPIContractAndItsHosting\Contracts\bin\Debug\Contracts.dll
+G:\GitWEBAPI\WebAPIContractAndItsHosting\Contracts\bin\Debug\Contracts.pdb
+G:\GitWEBAPI\WebAPIContractAndItsHosting\Contracts\bin\Debug\Framework.Core.dll
+G:\GitWEBAPI\WebAPIContractAndItsHosting\Contracts\bin\Debug\System.Web.Http.dll
+G:\GitWEBAPI\WebAPIContractAndItsHosting\Contracts\bin\Debug\Framework.Core.pdb
+G:\GitWEBAPI\WebAPIContractAndItsHosting\Contracts\bin\Debug\System.Web.Http.xml
+G:\GitWEBAPI\WebAPIContractAndItsHosting\Contracts\obj\Debug\Contracts.csprojResolveAssemblyReference.cache
+G:\GitWEBAPI\WebAPIContractAndItsHosting\Contracts\obj\Debug\Contracts.dll
+G:\GitWEBAPI\WebAPIContractAndItsHosting\Contracts\obj\Debug\Contracts.pdb
