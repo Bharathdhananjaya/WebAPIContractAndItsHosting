@@ -17,3 +17,8 @@ G:\GitWEBAPI\WebAPIContractAndItsHosting\TestProvider\bin\Debug\TestProvider.pdb
 G:\GitWEBAPI\WebAPIContractAndItsHosting\TestProvider\obj\Debug\TestProvider.csprojResolveAssemblyReference.cache
 G:\GitWEBAPI\WebAPIContractAndItsHosting\TestProvider\obj\Debug\TestProvider.dll
 G:\GitWEBAPI\WebAPIContractAndItsHosting\TestProvider\obj\Debug\TestProvider.pdb
+G:\GitWebAPIRep\WebAPIContractAndItsHosting\TestProvider\bin\Debug\TestProvider.dll
+G:\GitWebAPIRep\WebAPIContractAndItsHosting\TestProvider\bin\Debug\TestProvider.pdb
+G:\GitWebAPIRep\WebAPIContractAndItsHosting\TestProvider\obj\Debug\TestProvider.csprojResolveAssemblyReference.cache
+G:\GitWebAPIRep\WebAPIContractAndItsHosting\TestProvider\obj\Debug\TestProvider.dll
+G:\GitWebAPIRep\WebAPIContractAndItsHosting\TestProvider\obj\Debug\TestProvider.pdb
