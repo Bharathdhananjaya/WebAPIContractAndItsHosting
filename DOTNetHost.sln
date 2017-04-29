@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DOTNetHost", "DOTNetHost\DO
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OWINWindowsSVC", "OWINWindowsSVC\OWINWindowsSVC.csproj", "{23F0DBFB-8FD7-4567-9B87-830DB54BB4DB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProvider", "TestProvider\TestProvider.csproj", "{60B863B0-00E7-455F-8CD1-6BC0EF606965}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessProvider", "TestProvider\BusinessProvider.csproj", "{60B863B0-00E7-455F-8CD1-6BC0EF606965}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SQLRepository", "TestRepository\SQLRepository.csproj", "{92EBBEFA-2256-4DB1-BB9C-5843A0464260}"
 EndProject
