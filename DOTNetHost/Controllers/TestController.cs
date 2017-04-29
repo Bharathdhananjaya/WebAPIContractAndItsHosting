@@ -4,6 +4,8 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
+using Contracts;
+using TestProvider;
 
 
 namespace DOTNetHost.Controllers
@@ -22,9 +24,10 @@ namespace DOTNetHost.Controllers
 
         // GET: api/Test
      
-        public IList<string> Get()
+        public IList<object> Get()
         {
-            return new string[] { "value1", "value2" };
+            var provider = new ServiceProvider<object>().GetListOfItems();
+            return provider;
         }
 
         // GET: api/Test/5

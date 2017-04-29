@@ -4,6 +4,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Contracts;
+using TestRepository;
 
 
 namespace TestProvider
@@ -12,7 +14,8 @@ namespace TestProvider
     {
         public List<T> GetListOfItems()
         {
-            return new List<T>();
+            var repository = new SQLRepository<T>().GetAll();
+            return repository.ToList();
         }
 
     }

@@ -47,6 +47,10 @@
       <Project>{adf41cc7-f56b-437c-8eb1-c08a736593c9}</Project>
       <Name>Contracts</Name>
     </ProjectReference>
+    <ProjectReference Include="..\TestRepository\SQLRepository.csproj">
+      <Project>{92ebbefa-2256-4db1-bb9c-5843a0464260}</Project>
+      <Name>SQLRepository</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
