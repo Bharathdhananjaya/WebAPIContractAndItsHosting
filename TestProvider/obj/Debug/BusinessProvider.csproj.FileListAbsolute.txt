@@ -1,0 +1,11 @@
+G:\GitWebAPIRep\WebAPIContractAndItsHosting\TestProvider\obj\Debug\BusinessProvider.csprojResolveAssemblyReference.cache
+G:\GitWebAPIRep\WebAPIContractAndItsHosting\TestProvider\obj\Debug\TestProvider.dll
+G:\GitWebAPIRep\WebAPIContractAndItsHosting\TestProvider\obj\Debug\TestProvider.pdb
+G:\GitWebAPIRep\WebAPIContractAndItsHosting\TestProvider\bin\Debug\TestProvider.dll
+G:\GitWebAPIRep\WebAPIContractAndItsHosting\TestProvider\bin\Debug\TestProvider.pdb
+G:\GitWebAPIRep\WebAPIContractAndItsHosting\TestProvider\bin\Debug\Contracts.dll
+G:\GitWebAPIRep\WebAPIContractAndItsHosting\TestProvider\bin\Debug\Framework.Core.dll
+G:\GitWebAPIRep\WebAPIContractAndItsHosting\TestProvider\bin\Debug\System.Web.Http.dll
+G:\GitWebAPIRep\WebAPIContractAndItsHosting\TestProvider\bin\Debug\Contracts.pdb
+G:\GitWebAPIRep\WebAPIContractAndItsHosting\TestProvider\bin\Debug\Framework.Core.pdb
+G:\GitWebAPIRep\WebAPIContractAndItsHosting\TestProvider\bin\Debug\System.Web.Http.xml
