@@ -5,6 +5,15 @@ using System.Net.Http;
 using System.Web.Http;
 using Microsoft.Owin.Security.OAuth;
 using Newtonsoft.Json.Serialization;
+using Unity;
+using Unity.AutoRegistration;
+using Microsoft.Practices;
+using Microsoft.Practices.ServiceLocation;
+using Microsoft.Practices.Unity;
+using Contracts;
+using TestRepository;
+
+
 
 namespace DOTNetHost
 {
@@ -25,6 +34,10 @@ namespace DOTNetHost
                 routeTemplate: "api/{controller}/{id}",
                 defaults: new { id = RouteParameter.Optional }
             );
+
+            var container = new UnityContainer();
+            container.RegisterType<IRepository<object>, SQLRepository<object>>();
+            container.Resolve<IRepository<object>>();
         }
     }
 }
