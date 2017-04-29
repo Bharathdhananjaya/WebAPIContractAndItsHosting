@@ -289,6 +289,10 @@
       <Project>{adf41cc7-f56b-437c-8eb1-c08a736593c9}</Project>
       <Name>Contracts</Name>
     </ProjectReference>
+    <ProjectReference Include="..\TestProvider\BusinessProvider.csproj">
+      <Project>{60b863b0-00e7-455f-8cd1-6bc0ef606965}</Project>
+      <Name>BusinessProvider</Name>
+    </ProjectReference>
     <ProjectReference Include="..\TestRepository\SQLRepository.csproj">
       <Project>{92ebbefa-2256-4db1-bb9c-5843a0464260}</Project>
       <Name>SQLRepository</Name>

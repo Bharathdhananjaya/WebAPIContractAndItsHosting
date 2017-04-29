@@ -12,6 +12,7 @@ using Microsoft.Practices.ServiceLocation;
 using Microsoft.Practices.Unity;
 using Contracts;
 using TestRepository;
+using TestProvider;
 
 
 
@@ -37,7 +38,9 @@ namespace DOTNetHost
 
             var container = new UnityContainer();
             container.RegisterType<IRepository<object>, SQLRepository<object>>();
-            container.Resolve<IRepository<object>>();
+            container.RegisterType<IProvider<object>, ServiceProvider<object>>();
+            container.Resolve<IRepository<object>>(); 
+            
         }
     }
 }
