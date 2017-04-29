@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace TestProvider
 {
-    public class ServiceProvider
+    public class ServiceProvider<T> where T : class
     {
+        public List<T> GetListOfItems()
+        {
+            return new List<T>();
+        }
+
     }
 }
