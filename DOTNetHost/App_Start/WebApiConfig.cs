@@ -14,6 +14,7 @@ using Contracts;
 using TestRepository;
 using TestProvider;
 using MongoRepository;
+using Newtonsoft.Json;
 
 
 
@@ -21,6 +22,8 @@ namespace DOTNetHost
 {
     public static class WebApiConfig
     {
+        public static UnityContainer container;
+
         public static void Register(HttpConfiguration config)
         {
             // Web API configuration and services
@@ -37,7 +40,17 @@ namespace DOTNetHost
                 defaults: new { id = RouteParameter.Optional }
             );
 
-            var container = new UnityContainer();
+            //Define Formatters
+            var formatters = GlobalConfiguration.Configuration.Formatters;
+            var jsonFormatter = formatters.JsonFormatter;
+            var settings = jsonFormatter.SerializerSettings;
+            settings.Formatting = Formatting.Indented;
+            // settings.ContractResolver = new CamelCasePropertyNamesContractResolver();
+            var appXmlType = formatters.XmlFormatter.SupportedMediaTypes.FirstOrDefault(t => t.MediaType == "application/xml");
+            formatters.XmlFormatter.SupportedMediaTypes.Remove(appXmlType);
+
+            IUnityContainer container = new UnityContainer();
+             
             container.RegisterType<IRepository<object>, SQLRepository<object>>();
             container.RegisterType<IRepository<object>, MongoRepository<object>>();
             container.RegisterType<IProvider, ServiceProvider>();
