@@ -13,6 +13,7 @@ using Microsoft.Practices.Unity;
 using Contracts;
 using TestRepository;
 using TestProvider;
+using MongoRepository;
 
 
 
@@ -38,6 +39,7 @@ namespace DOTNetHost
 
             var container = new UnityContainer();
             container.RegisterType<IRepository<object>, SQLRepository<object>>();
+            container.RegisterType<IRepository<object>, MongoRepository<object>>();
             container.RegisterType<IProvider, ServiceProvider>();
             container.Resolve<IRepository<object>>(); 
             

@@ -289,6 +289,10 @@
       <Project>{adf41cc7-f56b-437c-8eb1-c08a736593c9}</Project>
       <Name>Contracts</Name>
     </ProjectReference>
+    <ProjectReference Include="..\MongoRepository\MongoRepository.csproj">
+      <Project>{1c84eb1f-35cb-401b-aa97-f8c90986280f}</Project>
+      <Name>MongoRepository</Name>
+    </ProjectReference>
     <ProjectReference Include="..\TestProvider\BusinessProvider.csproj">
       <Project>{60b863b0-00e7-455f-8cd1-6bc0ef606965}</Project>
       <Name>BusinessProvider</Name>
