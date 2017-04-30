@@ -29,7 +29,7 @@ namespace MongoRepository
             throw new NotImplementedException();
         }
 
-        T IRepository<T>.Get(int Id)
+        T IRepository<T>.Get(string Id)
         {
             throw new NotImplementedException();
         }

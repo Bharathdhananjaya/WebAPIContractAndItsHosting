@@ -12,6 +12,6 @@ namespace Contracts
         void Add(T entity);
         void Delete(T entity);
         void Update(T entity);
-        T Get(int Id);
+        T Get(string Id);
     }
 }

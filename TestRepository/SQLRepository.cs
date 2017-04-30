@@ -14,24 +14,24 @@ namespace TestRepository
     public class SQLRepository<T> : IRepository<T> where T : class
     {
 
-        private readonly ConnectionStringSettings connectionString;
+        private readonly string connectionString;
 
         public SQLRepository()
-        {            
-            connectionString = ConfigurationManager.ConnectionStrings["DbConnection"];
+        {
+            connectionString = "Server=LENOVO-PC;Database=Test;Trusted_Connection=True;";
         }
 
         public IEnumerable<T> GetAll()
         {
-            using (var db = new SqlConnection("Server=LENOVO-PC;Database=Test;Trusted_Connection=True;"))
+            using (var db = new SqlConnection(connectionString))
             {
                return  db.Query<T>("Select * From Employee").ToList();
             }
         }
 
-        public T Get(int Id)
+        public T Get(string Id)
         {
-            using (var db = new SqlConnection(ConfigurationManager.ConnectionStrings["DbConnection"].ConnectionString))
+            using (var db = new SqlConnection(connectionString))
             {
                 return db.Query<T>("Select * From Employee WHERE Id = @Id", new { Id }).SingleOrDefault();
             }

@@ -23,15 +23,21 @@ namespace DOTNetHost.Controllers
         // GET: api/Test     
         public List<object> Get()
         {
-            var provider = new ServiceProvider().GetListOfItems();
-            return provider;         
+            var items = new ServiceProvider().GetListOfItems();
+            return items;        
 
         }
 
         // GET: api/Test/5
-        public string Get(int id)
+        public HttpResponseMessage Get(string id)
         {
-            return "value";
+            var item = new ServiceProvider().Get(id);
+
+            if(item == null)
+            {
+                return Request.CreateResponse(HttpStatusCode.NotFound);
+            }
+            return Request.CreateResponse(HttpStatusCode.OK, item); 
         }
 
         // POST: api/Test

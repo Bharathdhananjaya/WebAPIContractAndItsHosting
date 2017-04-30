@@ -9,5 +9,7 @@ namespace Contracts
     public interface IProvider
     {
         List<object> GetListOfItems();
+
+        object Get(string id);
     }
 }

@@ -14,13 +14,15 @@ namespace TestProvider
     {
         public List<object> GetListOfItems()
         {
-            var repository = new SQLRepository<object>().GetAll();
-            List<object> items = new List<object>();
-            foreach(var item in repository)
-            {
-                items.Add(item[0]);
-            }
+            var items = new SQLRepository<object>().GetAll();            
             return items.ToList();
+        }
+
+
+        public object Get(string Id)
+        {
+            var item = new SQLRepository<object>().Get(Id);
+            return item;
         }
 
     }
