@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Contracts;
 using TestRepository;
-
+using MongoRepository;
 
 namespace TestProvider
 {
@@ -14,7 +14,8 @@ namespace TestProvider
     {
         public List<object> GetListOfItems()
         {
-            var items = new SQLRepository<object>().GetAll();            
+            var items = new SQLRepository<object>().GetAll();
+            var MongoCollection = new MongoRepository<Object>().GetAll();
             return items.ToList();
         }
 

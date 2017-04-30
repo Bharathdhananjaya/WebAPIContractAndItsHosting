@@ -4,37 +4,58 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Contracts;
+using MongoDB.Bson;
+using MongoDB.Driver;
+using MongoDB.Dynamic;
 
 namespace MongoRepository
 {
     public class MongoRepository<T> :  IRepository<T> where T : class
     {
-        IEnumerable<T> IRepository<T>.GetAll()
+        MongoServer server; 
+        
+        public MongoRepository()
+        {
+            server= MongoServer.Create("mongodb://localhost:27017");
+            server.Connect();
+           
+        }
+
+        public IEnumerable<T> GetAll()
+        {
+            List<object> items = new List<object>();
+            var db = server.GetDatabase("Test");
+            var collection = db.GetCollection<T>("Employee");
+
+            return collection.FindAll().AsQueryable<T>();
+        }
+
+        public void Add(T entity)
         {
             throw new NotImplementedException();
         }
 
-        void IRepository<T>.Add(T entity)
+        public void Delete(T entity)
         {
             throw new NotImplementedException();
         }
 
-        void IRepository<T>.Delete(T entity)
+        public void Update(T entity)
         {
             throw new NotImplementedException();
         }
 
-        void IRepository<T>.Update(T entity)
+        public T Get(string Id)
         {
             throw new NotImplementedException();
         }
 
-        T IRepository<T>.Get(string Id)
+        public T Get(int Id)
         {
             throw new NotImplementedException();
         }
 
-        void IDisposable.Dispose()
+        public void Dispose()
         {
             throw new NotImplementedException();
         }
