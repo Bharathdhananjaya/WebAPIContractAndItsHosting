@@ -6,6 +6,8 @@ using System.Net.Http;
 using System.Web.Http;
 using Contracts;
 using TestProvider;
+using Newtonsoft.Json.Serialization;
+using System.Runtime.Serialization.Json;
 
 
 namespace DOTNetHost.Controllers
@@ -16,18 +18,14 @@ namespace DOTNetHost.Controllers
           /// <summary>
         /// The system identifier
         /// </summary>
-        private const string SystemIdentifier = "(FW/ TestController)";
-
-       
+        private const string SystemIdentifier = "(FW/ TestController)";      
         
-
-
-        // GET: api/Test
-     
-        public IList<object> Get()
+        // GET: api/Test     
+        public List<object> Get()
         {
-            var provider = new ServiceProvider<object>().GetListOfItems();
-            return provider;
+            var provider = new ServiceProvider().GetListOfItems();
+            return provider;         
+
         }
 
         // GET: api/Test/5

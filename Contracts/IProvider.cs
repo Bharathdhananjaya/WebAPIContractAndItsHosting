@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace Contracts
 {
-    public interface IProvider<T> where T: class
+    public interface IProvider
     {
-        List<T> GetListOfItems();
+        List<object> GetListOfItems();
     }
 }

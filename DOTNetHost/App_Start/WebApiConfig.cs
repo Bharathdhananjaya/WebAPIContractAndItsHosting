@@ -38,7 +38,7 @@ namespace DOTNetHost
 
             var container = new UnityContainer();
             container.RegisterType<IRepository<object>, SQLRepository<object>>();
-            container.RegisterType<IProvider<object>, ServiceProvider<object>>();
+            container.RegisterType<IProvider, ServiceProvider>();
             container.Resolve<IRepository<object>>(); 
             
         }

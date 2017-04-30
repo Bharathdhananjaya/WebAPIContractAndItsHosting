@@ -10,12 +10,17 @@ using TestRepository;
 
 namespace TestProvider
 {
-    public class ServiceProvider<T> : IProvider<T> where T: class 
+    public class ServiceProvider : IProvider  
     {
-        public List<T> GetListOfItems()
+        public List<object> GetListOfItems()
         {
-            var repository = new SQLRepository<T>().GetAll();
-            return repository.ToList();
+            var repository = new SQLRepository<object>().GetAll();
+            List<object> items = new List<object>();
+            foreach(var item in repository)
+            {
+                items.Add(item[0]);
+            }
+            return items.ToList();
         }
 
     }

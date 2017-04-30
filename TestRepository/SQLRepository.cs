@@ -13,15 +13,17 @@ namespace TestRepository
 {
     public class SQLRepository<T> : IRepository<T> where T : class
     {
-        public SQLRepository()
-        {
-           
 
+        private readonly ConnectionStringSettings connectionString;
+
+        public SQLRepository()
+        {            
+            connectionString = ConfigurationManager.ConnectionStrings["DbConnection"];
         }
 
         public IEnumerable<T> GetAll()
         {
-            using (var db = new SqlConnection(ConfigurationManager.ConnectionStrings["DbConnection"].ConnectionString))
+            using (var db = new SqlConnection("Server=LENOVO-PC;Database=Test;Trusted_Connection=True;"))
             {
                return  db.Query<T>("Select * From Employee").ToList();
             }
