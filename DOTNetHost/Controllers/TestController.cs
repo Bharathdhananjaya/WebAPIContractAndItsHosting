@@ -8,6 +8,7 @@ using Contracts;
 using TestProvider;
 using Newtonsoft.Json.Serialization;
 using System.Runtime.Serialization.Json;
+using TestRepository;
 
 
 namespace DOTNetHost.Controllers
@@ -18,12 +19,15 @@ namespace DOTNetHost.Controllers
           /// <summary>
         /// The system identifier
         /// </summary>
-        private const string SystemIdentifier = "(FW/ TestController)";      
+        private const string SystemIdentifier = "(FW/ TestController)";
+
+        private IRepository<object> repository;
         
+
         // GET: api/Test     
         public List<object> Get()
         {
-            var items = new ServiceProvider().GetListOfItems();
+            var items = new ServiceProvider(new SQLRepository<object>()).GetListOfItems();
             return items;        
 
         }
@@ -31,7 +35,7 @@ namespace DOTNetHost.Controllers
         // GET: api/Test/5
         public HttpResponseMessage Get(string id)
         {
-            var item = new ServiceProvider().Get(id);
+            var item = new ServiceProvider(new SQLRepository<object>()).Get(id);
 
             if(item == null)
             {

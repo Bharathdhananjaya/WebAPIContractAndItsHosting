@@ -22,7 +22,7 @@ namespace DOTNetHost
 {
     public static class WebApiConfig
     {
-        public static UnityContainer container;
+        public static IUnityContainer container;
 
         public static void Register(HttpConfiguration config)
         {
@@ -49,13 +49,21 @@ namespace DOTNetHost
             var appXmlType = formatters.XmlFormatter.SupportedMediaTypes.FirstOrDefault(t => t.MediaType == "application/xml");
             formatters.XmlFormatter.SupportedMediaTypes.Remove(appXmlType);
 
-            IUnityContainer container = new UnityContainer();
-             
-            container.RegisterType<IRepository<object>, SQLRepository<object>>();
-            container.RegisterType<IRepository<object>, MongoRepository<object>>();
-            container.RegisterType<IProvider, ServiceProvider>();
-            container.Resolve<IRepository<object>>(); 
+            container = BuildUnityContainer();
+            GlobalConfiguration.Configuration.DependencyResolver = new Unity.WebApi.UnityDependencyResolver(container);
             
         }
+
+
+        private static IUnityContainer BuildUnityContainer()
+        {
+            IUnityContainer container = new UnityContainer();             
+            container.RegisterType(typeof(IRepository<object>),typeof(SQLRepository<object>));
+            container.RegisterType(typeof(IRepository<object>), typeof(MongoRepository<object>));
+            container.RegisterType(typeof(IProvider), typeof(ServiceProvider));
+             return container;
+        }
+
+
     }
 }
