@@ -14,6 +14,7 @@ using TestRepository;
 namespace DOTNetHost.Controllers
 {
     [System.ServiceModel.ServiceContractAttribute(Name = "TestFrameworkService")]
+    [RoutePrefix("api/v1")]
     public class TestController : ApiController
     {    
           /// <summary>
@@ -25,25 +26,25 @@ namespace DOTNetHost.Controllers
         
 
         // GET: api/Test     
+        
+        
+        [Route("test/items")]
+        [HttpGet]
         public List<object> Get()
         {
             var items = new ServiceProvider(new SQLRepository<object>()).GetListOfItems();
             return items;        
 
         }
-
-        // GET: api/Test/5
-        public HttpResponseMessage Get(string id)
+        
+        [Route("test/{filter}/items")]
+        [HttpGet]
+        public object GetListOfItems(string filter)
         {
-            var item = new ServiceProvider(new SQLRepository<object>()).Get(id);
-
-            if(item == null)
-            {
-                return Request.CreateResponse(HttpStatusCode.NotFound);
-            }
-            return Request.CreateResponse(HttpStatusCode.OK, item); 
+            var item = new ServiceProvider(new SQLRepository<object>()).Get(filter);
+            return item;
         }
-
+        
         // POST: api/Test
         public void Post([FromBody]string value)
         {

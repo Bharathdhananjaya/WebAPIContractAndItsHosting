@@ -28,8 +28,9 @@ namespace DOTNetHost
         {
             // Web API configuration and services
             // Configure Web API to use only bearer token authentication.
-            config.SuppressDefaultHostAuthentication();
-            config.Filters.Add(new HostAuthenticationFilter(OAuthDefaults.AuthenticationType));
+
+            //config.SuppressDefaultHostAuthentication();
+            //config.Filters.Add(new HostAuthenticationFilter(OAuthDefaults.AuthenticationType));
 
             // Web API routes
             config.MapHttpAttributeRoutes();
@@ -38,16 +39,7 @@ namespace DOTNetHost
                 name: "DefaultApi",
                 routeTemplate: "api/{controller}/{id}",
                 defaults: new { id = RouteParameter.Optional }
-            );
-
-            //Define Formatters
-            var formatters = GlobalConfiguration.Configuration.Formatters;
-            var jsonFormatter = formatters.JsonFormatter;
-            var settings = jsonFormatter.SerializerSettings;
-            settings.Formatting = Formatting.Indented;
-            // settings.ContractResolver = new CamelCasePropertyNamesContractResolver();
-            var appXmlType = formatters.XmlFormatter.SupportedMediaTypes.FirstOrDefault(t => t.MediaType == "application/xml");
-            formatters.XmlFormatter.SupportedMediaTypes.Remove(appXmlType);
+            );       
 
             container = BuildUnityContainer();
             GlobalConfiguration.Configuration.DependencyResolver = new Unity.WebApi.UnityDependencyResolver(container);
